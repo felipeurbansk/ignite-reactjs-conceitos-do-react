@@ -19,7 +19,7 @@ export function TaskList() {
     if(newTaskTitle) {
 
       let newTaks = {
-        id: Math.floor(Date. now() / 1000),
+        id: Math.floor((Date. now() / tasks.length)),
         title: newTaskTitle,
         isComplete: false
       }
